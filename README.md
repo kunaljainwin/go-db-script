@@ -21,15 +21,3 @@ This tool is designed to:
 - **Driver**: `lib/pq` (`database/sql`)
 - **Concepts Used**: Goroutines, Channels, WaitGroups, Random Data
 
----
-
-## 📁 Table Schema
-
-Before running the tool, create this table:
-
-```sql
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    name TEXT,
-    age INT
-);
